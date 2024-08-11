@@ -309,8 +309,6 @@ const declararGanador = ganador => {
     const botonEnviar = document.getElementById('enviarPregunta');
     botonEnviar.setAttribute('disabled', '');
     botonPreguntaAudio.setAttribute('disabled', '');
-    const containerPreguntas = document.getElementById('container-preguntas');
-    containerPreguntas.innerHTML = '';
     const nombreGanador = ganador == 1 ? estadoPartida.jugador1Id : estadoPartida.jugador2Id;
     const colorGanador = ganador == 1 ? estadoPartida.color1Id : estadoPartida.color2Id;
     const texto = document.getElementById('turnoJugador');
